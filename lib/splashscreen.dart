@@ -19,7 +19,7 @@ class _SpalshScreenState extends State<SpalshScreen> {
   Future<void> _navigateToSignUpPage() async {
     await Future.delayed(Duration(seconds: 3)); 
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (context) =>signUp()),
+      MaterialPageRoute(builder: (context) =>SignUp()),
     );
   }
 
