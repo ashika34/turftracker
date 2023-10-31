@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:turftracker/loginpage.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -38,7 +39,7 @@ class _SignUpState extends State<SignUp> {
               padding: const EdgeInsets.all(16.0),
               child: Text(
                 'Game on! Sign up and score your perfect pitch!',
-                style: TextStyle(fontWeight: FontWeight.bold,fontStyle: FontStyle.italic),
+                style: TextStyle(fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,fontSize: 17),
               ),
             ),
             Padding(
@@ -100,7 +101,7 @@ class _SignUpState extends State<SignUp> {
               height:20,
  ),
             ElevatedButton(onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => SignUp(),));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage(),));
             }, child: Text('Login here'),
             style: ElevatedButton.styleFrom(
               shape: RoundedRectangleBorder(
