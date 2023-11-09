@@ -39,7 +39,7 @@ class _SignUpState extends State<SignUp> {
               padding: const EdgeInsets.all(16.0),
               child: Text(
                 'Game on! Sign up and score your perfect pitch!',
-                style: TextStyle(fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,fontSize: 17),
+                style: TextStyle(fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,fontSize: 15),
               ),
             ),
             Padding(
